@@ -8,7 +8,7 @@ list.push(`${musicians[i]} plays ${instruments[i]}`);
 
 
 function johnLennonFacts(facts) {
-  while (facts.length > 0) {
-    console.log(facts + "!!!")
+  while (i < facts.length) {
+        console.log(facts[i++] + "!!!")
   }
 }
