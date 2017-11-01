@@ -9,10 +9,10 @@ list.push(`${musicians[i]} plays ${instruments[i]}`);
 var i = 0
 
 function johnLennonFacts(facts) {
+  var i = 0
+  var array = []
   while (i < facts.length) {
-    var i = 0
-      var array = []
-      array.push(facts[i++] + "!!!")
+          array.push(facts[i++] + "!!!")
   }
   return (array)
 }
